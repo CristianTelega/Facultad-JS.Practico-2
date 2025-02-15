@@ -1,0 +1,100 @@
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Etiquetas del formulario */
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+/* Inputs del formulario */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #dfe6e9;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Botón de registro */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos de los errores */
+.error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: -5px;
+}
+
+/* Espaciado */
+form div {
+    margin-bottom: 15px;
+}
+

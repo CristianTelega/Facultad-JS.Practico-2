@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+
+        <form id="formulario">
+            <h1>Formulario</h1>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <div id="errorNombre" class="error"></div>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <div id="errorApellido" class="error"></div>
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad">
+            <div id="errorEdad" class="error"></div>
+
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password">
+            <div id="errorPassword" class="error"></div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <div id="errorEmail" class="error"></div>
+        
+            <button type="submit">Registrarse</button>
+        
+        </form>
+
+
+        <script src="script.js"></script>
+
+
+    
+</body>
+</html>
